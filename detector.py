@@ -2,7 +2,7 @@
 suspicious_keywords = ["urgent", "password", "bank", "invoice", "verify", "click", "crypto", "login"]
 
 # A simulated incoming email message to analyze
-email_content = "URGENT: Please login to your bank account immediately to verify yor secure password.")
+email_content = "URGENT: Please login to your bank account immediately to verify yor secure password."
 
 print("--- Running Automated Phishing Email Scan ---")
 
