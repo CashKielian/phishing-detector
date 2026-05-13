@@ -26,8 +26,10 @@ for word in email_words:
       if keyword not in found_keywords:
         found_keywords.append(keyword)
 
-print(f"Total Suspicious Words Found: {phishing_score}")
+print(f"\nTotal Suspicious Words Found: {phishing_score}")
 print(f"Flagged Keywords: {found_keywords}")
+
+print("")
 
 # Risk Assessment Logic
 if phishing_score >= 3:
