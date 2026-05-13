@@ -1,8 +1,11 @@
 # A list of commonly used phishing trigger words
 suspicious_keywords = ["urgent", "password", "bank", "invoice", "verify", "click", "crypto", "login"]
 
-# A simulated incoming email message to analyze
-email_content = "URGENT: Please login to your bank account immediately to verify yor secure password."
+# An example of a incoming email message to analyze
+# email_content = "URGENT: Please login to your bank account immediately to verify yor secure password."
+
+# Prompts the User for their email they received  
+email_content = input("Enter your suspicious email you received: ")
 
 print("--- Running Automated Phishing Email Scan ---")
 
